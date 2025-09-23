@@ -1,0 +1,28 @@
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.ncb
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# Build folders
+Debug/
+Release/
+x64/Debug/
+x64/Release/
+bin/
+obj/
+out/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Ignore VS Code settings if present
+.vscode/
