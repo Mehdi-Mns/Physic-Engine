@@ -13,8 +13,6 @@ Le moteur permet de gérer :
 
 Le projet inclut également un système de forces modulable (drag, magnétisme, ressorts fixes ou entre particules) et un rendu OpenGL de base pour les visualiser.
 
----
-
 ## Fonctionnalités principales
 
 - Moteur physique 3D entièrement personnalisé en C++.  
@@ -35,8 +33,6 @@ Le projet inclut également un système de forces modulable (drag, magnétisme, 
   - **GLM**  
   - **GLEW** (si nécessaire)  
 - Les fichiers DLL nécessaires doivent être placés dans **C:\Windows\System32** ou ajoutés au **PATH**.
-
----
 
 ## Installation et compilation
 
@@ -65,30 +61,33 @@ Le projet inclut également un système de forces modulable (drag, magnétisme, 
 
 5. **Compiler et exécuter**  
    - Sélectionnez **Debug** ou **Release** et compilez le projet.  
-   - Exécutez `Physics-engine.exe` depuis Visual Studio ou le dossier `Debug/`.
-
----
+   - Exécutez `Physics-engine.exe` depuis Visual Studio ou le dossier `Debug/`ou `Release/`.
 
 ## Contrôles clavier et souris
 
 **Clavier :**  
 
-- `1 → 4` : changer de scène de démonstration  
-- `Espace` : pause / reprise  
-- `g` : activer / désactiver la gravité  
-- `u` : activer / désactiver la suppression de particules  
-- `f` : créer une fontaine de particules (dans la scène 1)  
-- `p` : créer des particules avec drag (dans la scène 1)  
-- `m` : changer la charge de la particule centrale (dans la scène 2)  
-- `a/d/D` : ajuster le damping  
-- `k/K` : ajuster la raideur des ressorts (dans la scène 3)  
-- `e` : changer le type d’intégration (Euler / semi-implicite)  
-- `c` : activer / désactiver les collisions  
+| Touche    | Action                                                       |
+| --------- | ------------------------------------------------------------ |
+| `1 → 4`   | changer de scène de démonstration                            |
+| `Espace`  | pause / reprise                                              |
+| `g`       | activer / désactiver la gravité                              |
+| `u`       | activer / désactiver la suppression de particules            |
+| `f`       | créer une fontaine de particules (dans la scène 1)           |
+| `p`       | créer des particules avec drag (dans la scène 1)             |
+| `m`       | changer la charge de la particule centrale (dans la scène 2) |
+| `a/d/D`   | ajuster le damping                                           |
+| `k/K`     | ajuster la raideur des ressorts (dans la scène 3)            |
+| `e`       | changer le type d’intégration (Euler / semi-implicite)       |
+| `c`       | activer / désactiver les collisions                          |
 
 **Souris :**  
 
-- Clic gauche + drag : rotation de la caméra  
-- Clic droit + drag : déplacement de la particule centrale (dans certaines scènes)
+| Touche                 | Action                                                       |
+| ---------------------- | ------------------------------------------------------------ |
+| `Clic gauche + drag`   | rotation de la caméra                                        |
+| `Clic droit + drag`    | déplacement de la particule centrale (dans certaines scènes) |
+
 
 ---
 
@@ -98,8 +97,6 @@ Le projet inclut également un système de forces modulable (drag, magnétisme, 
 - **App/** : interface graphique et utilitaires OpenGL (GxWorld, GxParticle, GxUpdater).  
 - **External Libraries/** : bibliothèques externes (FreeGLUT, GLM, GLU…).  
 - **Physics-engine.cpp** : point d’entrée, création des scènes et logique OpenGL.  
-
----
 
 ## Exemple de scène
 
