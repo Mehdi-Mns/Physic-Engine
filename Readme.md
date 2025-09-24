@@ -45,7 +45,7 @@ Le projet inclut également un système de forces modulable (drag, magnétisme, 
    - Double-cliquez sur `Physic Engine.sln` pour ouvrir la solution dans Visual Studio 2022.
 
 3. **Vérifier les dépendances**  
-   - Les bibliothèques FreeGLUT, GLM et GLEW sont incluses dans le dossier `External Libraries/`.  
+   - Les bibliothèques FreeGLUT, GLM et GLEW sont incluses dans le dossier `External Libraries/`, à extraire dans ce dossier.  
    - Dans Visual Studio, faites un clic droit sur le projet → **Propriétés** → **VC++ Directories** :  
      - **Include Directories** : pour chaque lib, ajoutez le chemin vers `External Libraries/include`.  
      - **Library Directories** : pour chaque lib, ajoutez le chemin vers `External Libraries/lib`.  
