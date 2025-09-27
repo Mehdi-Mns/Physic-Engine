@@ -38,7 +38,7 @@ Le projet inclut également un système de forces modulable (drag, magnétisme, 
 
 1. **Cloner le dépôt**  
    ```bash
-   git clone <URL_DU_DEPOT>
+   git clone https://github.com/Mehdi-Mns/Physic-Engine.git
    ```
 
 2. **Ouvrir la solution dans Visual Studio**  
